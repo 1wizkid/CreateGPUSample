@@ -1,5 +1,6 @@
 #pragma once
-//#include <mfapi.h>
+#include <mfapi.h>
+#pragma comment(lib, "mfplat")
 
 using namespace Microsoft::WRL; //this is needed to use ComPtr<>
 
